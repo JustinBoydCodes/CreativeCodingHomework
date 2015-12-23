@@ -115,7 +115,7 @@ function debugServer(_state)
 }
 
 
-/*var startSerial = function(_port, _br, _header) {
+var startSerial = function(_port, _br, _header) {
 	//
 	// serial stuff - read from arduino and xmit via socket.io
 	//
@@ -156,7 +156,7 @@ function stopSerial()
 function debugSerial(_state)
 {
 	SERIALDEBUG = _state;
-} */
+} 
 
 // require.js stuff:
 module.exports.startServer = startServer;
